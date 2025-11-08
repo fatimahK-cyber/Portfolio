@@ -1,0 +1,56 @@
+<% include partials/header %>
+<% include partials/main_nav %>
+
+<html>
+ 
+<div id="wrapper">
+
+<!--The banner ID style is inside the wrapper ID style-->
+<div id="banner">
+<h1> Contact Me here</h1>
+<p>To get in touch with me, please fill out the form below. </p>
+
+</div>
+   
+            <form action="mailto:fatimah.kamal@ontariotechu.net?subject=Feedback from website"
+            enctype="text/plain" method="post" name="ContactForm"
+            >
+            <p>
+                <label for="FName">Your Name: </label>
+                <input type="text" name="FName" size="40"
+                placeholder="Enter your full name" required>
+            </p>
+
+                        <p>
+                <label for="Email">Your Phone Number: </label>
+                <input type="email" name="Phone" size="40"
+                placeholder="Enter your Phone number" required>
+            </p>
+
+            <p>
+                <label for="Email">Your Email: </label>
+                <input type="email" name="Email" size="40"
+                placeholder="Enter your email address" required>
+            </p>
+            <p>
+                <label for="comments">Comments: </label>
+                <br>
+                <textarea name="comments" cols="60" rows="8"></textarea>
+            </p>
+            
+            <p>
+                <br><br>
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+            </p>
+            </form>
+
+
+  
+      
+           
+    </div>
+    </body>
+</html>
+
+<% include partials/footer %>

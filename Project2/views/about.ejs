@@ -1,0 +1,48 @@
+<% include partials/header %>
+<% include partials/main_nav %>
+
+
+<html>
+   
+    <body class="aboutpage">
+
+        
+<div class="wrapper">
+
+<!--The banner ID style is inside the wrapper ID style-->
+<div id="banner">
+<h1>Get to Know Me</h1>
+
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="/Asset/images/Portfolio.jpeg" class="card-img-top" alt="Portfolio Image">
+  <div class="card-body">
+    <h5 class="card-title">Hello! My name is Fatimah Kamal</h5>
+    <p class="card-text">I am a third-year student at Ontario Tech University, pursuing a degree in Networking and IT Security.</p>
+  </div>
+</div>
+        
+
+        <video
+        id="video" 
+        width="320"
+        height="240"
+        controls 
+        autoplay muted loop
+        poster="Portfolio.jpeg"
+        preload="auto">
+            <source src="/Asset/images/Introduction.mp4" type="video/mp4">
+            <source src="on_record.ogv" type="video/ogv">
+        </video> 
+
+        <br> 
+        <button onclick="playPause()">Play or Pause the Video</button>
+            
+    </div>
+
+    </body>
+</html>
+
+ 
+<% include partials/footer %>
