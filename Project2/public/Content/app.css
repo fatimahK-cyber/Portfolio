@@ -1,10 +1,29 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #dcd6f7;
 }
 
+html, body {
+  background-color: #dcd6f7 !important;
+}
+
+
 a {
-  color: #00B7FF;
+  color: #ffffff;
+}
+
+.profile-nav-pic {
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+
+#boxes {
+  background-color: #a6b1e1;
 }
 
 
